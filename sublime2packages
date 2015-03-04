@@ -1,0 +1,6 @@
+packages:
+Package-installer sublime2
+Robot-framework
+Python pep8 autoformat
+sublime linter
+
