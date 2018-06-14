@@ -1,0 +1,26 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+  {
+      "key": "cmd+3", "command": "workbench.action.terminal.focus"},
+  {
+      "key": "ctrl+.",
+      "command": "workbench.action.focusActiveEditorGroup",
+      "when": "terminalFocus"
+  },
+  {
+      "key": "cmd+k cmd+u",
+      "command": "editor.action.transformToUppercase"
+  },
+  {
+      "key": "cmd+0",
+      "command": "workbench.action.focusSideBar"
+  },
+  {
+      "key": "cmd+4",
+      "command": "workbench.action.terminal.focusNext"
+  },
+  {
+      "key": "cmd+5",
+      "command": "workbench.action.terminal.focusPrevious"
+  }
+]

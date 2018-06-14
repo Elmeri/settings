@@ -1,0 +1,22 @@
+#!/bin/bash
+code --install-extensio DotJoshJohnson.xml
+code --install-extensio IBM.output-colorizer
+code --install-extensio PeterJausovec.vscode-docker
+code --install-extensio djabraham.vscode-yaml-validation
+code --install-extensio haaaad.ansible
+code --install-extensio jinsihou.diff-tool
+code --install-extensio keith.robotframework
+code --install-extensio mathiasfrohlich.Kotlin
+code --install-extensio ms-python.python
+code --install-extensio redhat.java
+code --install-extensio richie5um2.vscode-sort-json
+code --install-extensio rogalmic.bash-debug
+code --install-extensio vivainio.robotframework
+code --install-extensio vscjava.vscode-java-debug
+code --install-extensio vscjava.vscode-java-pack
+code --install-extensio vscjava.vscode-java-test
+code --install-extensio vscjava.vscode-maven
+code --install-extensio vscodevim.vim
+code --install-extensio wayou.vscode-todo-highlight
+code --install-extensio wengerk.highlight-bad-chars
+code --install-extensio wholroyd.jinja

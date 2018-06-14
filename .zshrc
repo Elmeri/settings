@@ -23,10 +23,13 @@ export PATH="$PATH:/Users/elmeripoikolainen/Library/Android/sdk/tools/bin"
 
 alias gits="git status"
 alias copyLastCmd="fc -ln -1 | awk '{\$1=\$1}1' | pbcopy"
-alias bashs="source ~/.zshrc"
-alias bashp="vim ~/.zshrc"
 alias sandbox="cd /Users/elmeripoikolainen/Documents/sandbox"
-
+alias zshs="source ~/.zshrc"
+alias zshp="vim ~/.zshrc"
+alias sandbox="cd /Users/elmeripoikolainen/Documents/sandbox"
+alias adb-sc="adb shell screencap -p /sdcard/screencap.png; adb pull /sdcard/screencap.png"
+alias adb-dump="adb shell uiautomator dump;adb pull /storage/emulated/legacy/window_dump.xml"
+alias rfind="find . -name"
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -108,3 +111,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
