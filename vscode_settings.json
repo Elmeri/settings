@@ -1,0 +1,16 @@
+{
+    "editor.renderWhitespace": "boundary",
+    "files.trimTrailingWhitespace": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/.pyc":true,
+        "**/.un~":true
+    }
+,
+"window.zoomLevel": 0,
+"editor.wordWrap": true,
+"editor.rulers": [80]
+}

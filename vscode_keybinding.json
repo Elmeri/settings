@@ -1,0 +1,35 @@
+[
+    {
+        "key": "ctrl+c",
+        "command": "extension.changeCase.title",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+7",
+        "command": "editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+3", "command": "workbench.action.terminal.focus"},
+    {
+        "key": "ctrl+.",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+k cmd+u",
+        "command": "editor.action.transformToUppercase"
+    },
+    {
+        "key": "cmd+0",
+        "command": "workbench.action.focusSideBar"
+    },
+    {
+        "key": "cmd+4",
+        "command": "workbench.action.terminal.focusNext"
+    },
+    {
+        "key": "cmd+5",
+        "command": "workbench.action.terminal.focusPrevious"
+    }
+]
