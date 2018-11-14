@@ -19,9 +19,15 @@ function gitb {
     git branch
 }
 
-function gitc {
+function gitco {
     $arguments = $args[0]
     git checkout $arguments
+}
+
+function gitnb {
+    $arguments = $args[0]
+    git checkout -b $arguments
+    git push --set-upstream origin $arguments
 }
 
 Set-Alias gs gits
