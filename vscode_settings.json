@@ -9,8 +9,14 @@
         "**/.pyc":true,
         "**/.un~":true
     }
-,
-"window.zoomLevel": 0,
-"editor.wordWrap": true,
-"editor.rulers": [80]
+    ,
+    "window.zoomLevel": 0,
+    "editor.wordWrap": true,
+    "editor.rulers": [80],
+    "rfLanguageServer.libraries": [
+        "BuiltIn-3.0.4",
+        "SeleniumLibrary-3.2.0",
+        "Dialogs-3.1.1",
+        "Collections-3.1.1"
+    ],
 }
